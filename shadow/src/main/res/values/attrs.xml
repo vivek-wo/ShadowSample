@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShadowLayout">
+        <!-- 是否隐藏阴影 -->
+        <attr name="shadowHidden" format="boolean" />
+        <!--阴影：阴影颜色-->
+        <attr name="shadowColor" format="color" />
+        <!--阴影：阴影的扩散范围(也可以理解为扩散程度)-->
+        <attr name="shadowRadio" format="dimension" />
+        <!--阴影：x轴的偏移量-->
+        <attr name="shadowOffsetX" format="dimension" />
+        <!--阴影：y轴的偏移量-->
+        <attr name="shadowOffsetY" format="dimension" />
+        <!--圆角大小-->
+        <attr name="rectRadio" format="dimension" />
+
+        <attr name="shadowPaddingLeft" format="dimension" />
+        <attr name="shadowPaddingTop" format="dimension" />
+        <attr name="shadowPaddingRight" format="dimension" />
+        <attr name="shadowPaddingBottom" format="dimension" />
+    </declare-styleable>
+</resources>
